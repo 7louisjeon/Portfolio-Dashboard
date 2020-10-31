@@ -1,0 +1,59 @@
+.icons {
+  display: flex;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+
+.icons > h3 {
+  display: none;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1350px) {
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 45px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1257px) {
+  .icons {
+    transform: translateY(-100%);
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 960px) {
+  .icons > h3 {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 860px) {
+  .icons > h3 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 820px) {
+  .icons > h3 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 660px) {
+  .icons {
+    transform: translate3d(20%, -100%, 0);
+  }
+}
+
+@media screen and (min-width: 1351px) {
+  .icons {
+    margin-top: 20px;
+  }
+}

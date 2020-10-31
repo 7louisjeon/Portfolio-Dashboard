@@ -1,0 +1,33 @@
+.languages {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+  border: 2px solid var(--main);
+  border-radius: 50px;
+  flex: 1 0;
+  position: relative;
+  z-index: 1;
+}
+
+.languages:hover {
+  transform: scale(1.07);
+}
+
+@media screen and (max-width: 1350px) {
+  .languages {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+.languages > h2 {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  white-space: nowrap;
+}

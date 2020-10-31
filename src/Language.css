@@ -1,0 +1,50 @@
+.language {
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+  text-align: center;
+}
+
+.language:hover {
+  transform: scale(1.07);
+}
+
+.language > img {
+  height: 80px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1970px) {
+  .language > img {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .language > img {
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .language > img {
+    height: 100px;
+  }
+}
+
+.language > h3 {
+  text-align: center;
+}
+
+.popup {
+  position: absolute;
+  background-color: var(--main);
+  color: black;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 18px;
+  transform: translateX(-25%);
+}
+
+.popup > p {
+  margin: 10px;
+}

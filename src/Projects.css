@@ -1,0 +1,66 @@
+.projects {
+  border: 2px solid var(--main);
+  border-radius: 50px;
+  margin-left: 1vw;
+  margin-bottom: 20px;
+  width: 94vw;
+  height: 490px;
+  display: flex;
+}
+
+.title {
+  width: 31vw;
+  font-size: 40px;
+  margin-top: 1vh;
+  margin-left: 2vw;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  border: 2px solid var(--main);
+  border-radius: 50px;
+  width: 31.1vw;
+  height: 52vh;
+  overflow: hidden;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  color: var(--main);
+}
+
+a {
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.title {
+  margin-top: 8vh;
+  text-align: center;
+  transform: translate3d(-5%, 30%, 0);
+}
+
+.content {
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  width: 20vw;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 93.5vw;
+  }
+  .projects {
+    height: 157vh;
+  }
+}

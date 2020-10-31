@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+:root {
+  --main: yellowgreen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  height: 100vh;
+  color: var(--main);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.window {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: 4vh;
+  margin-left: 2vw;
+  width: 96vw;
+  height: 92vh;
+  background: none;
+  border: 2px solid var(--main);
+  border-radius: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.upper {
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.upperRight {
+  display: flex;
+  flex: 1 0;
+}
+
+@media screen and (max-width: 1485px) {
+  .upperRight {
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.upperLeft > img {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.upperLeft > img:hover {
+  transform: scale(1.07);
+}
+
+.email {
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .email {
+    display: inherit;
+    width: 300px;
+    height: 130px;
+    border: 2px solid var(--main);
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .email > h3 {
+    margin-top: 35px;
+  }
+  .window {
+    height: 110vh;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  .window {
+    height: 213vh;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 860px) {
+  .email {
+    display: none;
+  }
+  .upperLeft > img {
+    display: none;
   }
 }

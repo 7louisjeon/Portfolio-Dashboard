@@ -1,0 +1,20 @@
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1850px) {
+  .logos {
+    margin-top: 1vh;
+  }
+}
+
+.line {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 0;
+}
