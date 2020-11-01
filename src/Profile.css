@@ -124,12 +124,13 @@ a > .btn:focus {
   }
   .part1 {
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 60px;
     flex-direction: column;
     height: 100px;
+    width: 300px;
   }
   .part2 {
-    margin-left: 0px;
+    margin-left: 40px;
     margin-top: 20px;
     width: 300px;
     display: flex;
@@ -152,6 +153,9 @@ a > .btn:focus {
   .img1 {
     width: 250px;
     height: 250px;
+  }
+  .part1 {
+    margin-left: 80px;
   }
   .part2 > p {
     display: none;
@@ -182,7 +186,7 @@ a > .btn:focus {
   .part1 {
     width: 200px;
     height: 50px;
-    margin-left: 50px;
+    margin-left: 120px;
   }
   .part1 > h3 {
     display: none;
@@ -198,18 +202,27 @@ a > .btn:focus {
     height: 60px;
   }
   .part1 {
-    margin-left: 60px;
+    margin-left: 110px;
     margin-right: 0;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 580px) {
+  .part1 {
+    margin-left: 70px;
+  }
   .part1 > h2 {
     font-size: 40px;
+  }
+  .part2 {
+    margin-left: 0;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 505px) {
+  .part1 {
+    margin-left: 50px;
+  }
   .part1 > h2 {
     font-size: 35px;
   }

@@ -1,9 +1,9 @@
 :root {
   --main: yellowgreen;
+  --main2: white;
 }
 
 .app {
-  height: 100vh;
   color: var(--main);
 }
 
@@ -14,7 +14,6 @@
   margin-top: 4vh;
   margin-left: 2vw;
   width: 96vw;
-  height: 92vh;
   background: none;
   border: 2px solid var(--main);
   border-radius: 50px;

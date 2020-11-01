@@ -13,7 +13,7 @@ function Icons() {
           style={{
             fontSize: "40px",
             marginRight: "10px",
-            color: "white",
+            color: "var(--main)",
             cursor: "pointer",
           }}
         />
@@ -23,7 +23,7 @@ function Icons() {
           style={{
             fontSize: "40px",
             marginRight: "10px",
-            color: "white",
+            color: "var(--main)",
             cursor: "pointer",
           }}
         />
@@ -33,7 +33,7 @@ function Icons() {
         target="_blank"
       >
         <LinkedInIcon
-          style={{ fontSize: "40px", color: "white", cursor: "pointer" }}
+          style={{ fontSize: "40px", color: "var(--main)", cursor: "pointer" }}
         />
       </a>
     </div>
