@@ -61,5 +61,14 @@ a {
   }
   .projects {
     height: 157vh;
+    flex-direction: column;
+  }
+  .title {
+    width: inherit;
+    margin-left: 5vw;
+  }
+  .content {
+    width: 400px;
+    transform: none;
   }
 }
